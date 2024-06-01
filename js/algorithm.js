@@ -72,3 +72,88 @@
 // }
 // }
 // console.log(`yig'indi ${summ}`); 
+
+// 9-masala
+// Savol 
+// Tez orada RoboContest tizimining qanday ishlayotganligini tekshirish uchun RoboticsLab direktori ishxonamizga tashrif buyuradi. 
+// Biz direktorni tantanali kutib olish maqsadida direktorning moshinadan tushgan joyidan ishxonamiz eshigigacha bolgan oraliqga gilam toshashga qaror qildik. 
+// Bizga malumki direktorning mashinasi toxtatiladigan joydan ishxonamiz kirish eshigigacha bolgan masofa 
+// 𝑁
+// N metr, bozorda 1 metr gilamning narxi 
+// 𝑃
+// P som. Biz gilam sotib olish uchun jami qancha mablag sarflashimizni aniqlang!.
+
+// let N = +prompt(`N ma'lumot kiritilsin`);
+// let P = +prompt(`P ma'lumot kiritilsin`);
+// let sum = 0;
+// for ( i = 0; i < N; i++){
+//     sum += P;
+// }
+// console.log("Gilamning umumiy narxi: " + sum + " so'm ");
+
+// 10-masala
+// Savol
+
+// Beshta musbat butun son berilgan, ulardan torttasini ajratib olinganda
+// umumiy yigindisi bolishi mumkin bolgan minimum qiymat va maksimum qiymatni aniqlang.
+
+// let numbers = [20, 19, 9, 24, 15]; 
+
+// let umumiySum = 0;
+// let minSum = Number.MAX_SAFE_INTEGER;
+// let maxSum = Number.MIN_SAFE_INTEGER;
+
+// for (let i = 0; i < numbers.length; i++) {
+//     umumiySum += numbers[i];
+// }
+
+// for (let i = 0; i < numbers.length; i++) {
+//     let torttaYigindi = umumiySum - numbers[i];
+//     if (torttaYigindi < minSum) {
+//         minSum = torttaYigindi;
+//     }
+//     if (torttaYigindi > maxSum) {
+//         maxSum = torttaYigindi;
+//     }
+// }
+// console.log("To'rtta sonning minimal yig'indisi:" + minSum);
+// console.log("To'rtta sonning maksimal yig'indisi:" + maxSum);
+
+// 11-masala
+// Savol
+// Ikkita butun son berilgan ularni ornini almashtiruvchi dastur tuzing.!
+
+// let a = +prompt(`Ixtiyoriy son kiriting!`);
+// let b = +prompt(`Ixtiyoriy son kiriting!`);
+
+// for (let i = 0; i < 1; i++) {
+//     let c = a;
+//     a = b;
+//     b = c;
+// }
+// console.log("Almashtirishdan keyin: a = " + a + ", b = " + b);
+
+// 12-masala
+// Savol
+// Sizga to'g'ri to'rtburchakning tomonlari a va b beriladi, siz uning yuzasi va perametrini topib quyidagi shartga tekshirishingiz kerak bo'ladi.
+// Agar yuzasi perimetridan katta bolsa yuzasini aks holda peremetrini chiqaring.!
+
+// let a = +prompt(`a`);
+// let b = +prompt(`b`);
+
+// let y = 0;
+// let p = 0;
+
+// for (let i = 0; i < 1; i++) {
+//     y = a * b;
+//     p = 2 * (a + b);
+// }
+// let result;
+// for (let i = 0; i < 1; i++) {
+//     if (y > p) {
+//         result = y - p;
+//     } else {
+//         result = p - y;
+//     }
+// }
+// console.log("Natija:" + result);
